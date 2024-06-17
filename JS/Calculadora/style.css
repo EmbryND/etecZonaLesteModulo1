@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(119, 81, 255);
+}
+
+.quadrado {
+    font-size: 40px;
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 255, 178);
+    border: 5px solid rgb(0, 0, 0) ;
+}
+.numero {
+    padding: 5px;
+    text-align: left;
+    font-size: 20px;
+}
+.botao {
+    background-color: rgb(255, 209, 125);
+}
+h2 {
+    text-align: left;
+    font-size: 20px;
+}

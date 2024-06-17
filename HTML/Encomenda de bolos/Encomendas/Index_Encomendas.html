@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encomendar Bolo</title>
+</head>
+<body>
+    <header>
+        <h1>Pães Doces e Bolos</h1>
+        <ul>
+            <li><a href="../Index.html">Página Principal</a></li>
+            <li><a href="Encomendas/Index_Encomendas.html">Encomendar Bolo</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>Encomendar Bolo</h2>
+        <form method="get">
+            Nome: <input type=text name="nome" size="35" maxlength="35" placeholder="Informe o nome"/> DDD (<input type=text name="ddd" size="2" maxlength="2" placeholder="DDD"/>) Telefone: <input type=text name="telefone" size="10" maxlength="10" placeholder="Telefone"/>
+            <br /><br />
+         </form>
+
+        <table border="2">
+
+            <pre>                                         Bolos</pre>
+        
+         <tr>
+            <col>
+            <td><img src="../Imagens/Bolo01.png" alt="Bolo01" title="Bolo01" width="200"></td>
+            <td><img src="../Imagens/Bolo02.png" alt="Bolo02" title="Bolo03" width="200"></td>
+            <td><img src="../Imagens/Bolo03.png" alt="Bolo03" title="Bolo03" width="200"></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Chocolate</td>
+            <td style="text-align: center;">Frutas</td>
+            <td style="text-align: center;">Misto</td>
+        </tr>
+        </table>
+        <br /><br />
+        <form method="get">
+            Sabor: <select name="sabor">
+                <option value="null" selected disabled>Escolha...</option>
+                <option value="cho">Chocolate</option>
+                <option value="fru">Frutas</option>
+                <option value="mis">Misto</option>
+                Tipo: <input type="radio" name="simples" value="sim" />Simples <input type="radio" name="decorado" value="dec" />Decorado
+            </select>
+            <br /><br />
+            Tamanho: <input type=numeric name="tamanho" />kg <input type="checkbox" name="simples" value="sim" />Diet?
+            <br /><br />
+            Observações:
+            <br /><br />
+            <textarea name="" id="" cols="80" rows="3" placeholder="Observações sobre o Pedido"></textarea>
+            <br /><br />
+            <button type="submit">Enviar Pedido</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </main>
+</body>
+</html>

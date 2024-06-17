@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="quadrado">Calculadora
+            <form class="numero"> Primeiro número: <input type=number name="pnumero" id="first"
+                    placeholder="Digite um número de 0 a 9" size="20" </form>
+                <form class="numero"> Segundo número: <input type=number name="pnumero" id="second"
+                        placeholder="Digite um número de 0 a 9" size="20" </form>
+                    <br />
+                    <center><input type="button" name="btsoma" value="Soma" onclick="soma()" class="botao">
+                        <input type="button" name="btsubtracao" value="Subtração" onclick="subtracao()" class="botao">
+                        <input type="button" name="btmultiplicacao" value="Multiplicação" onclick="multiplicacao()" class="botao">
+                        <input type="button" name="btdivisao" value="Dvisão" onclick="divisao()" class="botao">
+                        <div id="resultado"></div>
+                        
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>

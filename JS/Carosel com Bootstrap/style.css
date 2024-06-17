@@ -1,0 +1,27 @@
+img {
+    display: block;
+    margin: auto;
+    width: 810px;
+}
+body {
+    background-color: black;
+}
+.card {
+    margin: auto;
+}
+.img2 {
+    width: 950px;
+}
+.img3 {
+    width: 1100px;
+}
+.img4 {
+    width: 1030px;
+}
+p.footer {
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: 0;
+}

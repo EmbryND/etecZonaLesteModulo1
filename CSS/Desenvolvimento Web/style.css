@@ -1,0 +1,131 @@
+body {
+    font-family: Calibri;
+    text-align: center;
+    margin: 0;
+}
+
+header {
+    background-image: url(Img/textura-branca.jpg);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+nav {
+    background-image: url(Img/textura-branca.jpg);
+    width: 15%;
+    height: 100%;
+    top: 80px;
+    right: 0;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+main {
+    background-image: url(Img/textura-cinza.jpg);
+    background-size: cover;
+    width: 85%;
+    min-height: 100%;
+    padding: 20px;
+    top: 80px;
+    position: absolute;
+    border-top: 2px dotted rgb(255, 250, 250);
+    border-right: 2px dotted rgb(255, 250,250);
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+p {
+    color: rgb(255, 250, 250);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+span {
+    color: rgb(255, 166, 0);
+}
+
+table {
+    margin: auto;
+}
+
+th {
+    text-align: left;
+    font-size: 14pt;
+    color: rgb(105,105,105);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+td {
+    font-size: 12pt;
+    color: rgb(255, 250, 250);
+    border: 2px double rgb(255, 250, 250);
+    text-align: center;
+}
+
+th.itens, caption {
+    color: rgb(255, 250, 250);
+    border: 2px double rgb(255, 250, 250);
+    text-align: center;
+}
+
+caption {
+    color: rgb(30, 144, 255);
+    font-weight: bold;
+}
+
+.font_ref {
+    text-align: right;
+    font-size: 12pt;
+    color: rgb(255, 215, 0);
+}
+
+span.destaque {
+    font-weight: bold;
+    color: rgb(105,105,105);
+    font-size: 36pt;
+}
+
+.home {
+    text-align: center;
+    font-size: 24px;
+    list-style-image: url(Img/home2.png);
+}
+
+.home:hover {
+    background-color: rgb(105, 105, 105);
+    opacity: 0.75;
+    color: rgb(255, 250, 250);
+}
+
+.tecnologias {
+    text-align: center;
+    font-size: 24px;
+    list-style-image: url(Img/tecnologica2.png);
+}
+
+.tecnologias:hover {
+    background-color: rgb(105, 105, 105);
+    opacity: 0.75;
+    color: rgb(255, 250, 250);
+}
+
+.navegadores {
+    text-align: center;
+    font-size: 24px;
+    list-style-image: url(Img/navegador\ \(2\).png);
+}
+
+.navegadores:hover {
+    background-color: rgb(105, 105, 105);
+    opacity: 0.75;
+    color: rgb(255, 250, 250);
+}
